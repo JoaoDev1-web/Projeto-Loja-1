@@ -1,0 +1,85 @@
+/*ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+}
+
+body{
+    background: linear-gradient(135deg, #623253, #cd66ac);
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ff00ae;
+    border: 0;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: 1.2s;
+    position: absolute;
+    top: 28px;
+    left: 1016px;
+}
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #ff00ae;
+    transform: scale(1.05);
+}
+
+/*ESTILO DO CABEÇALHO*/
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(213, 207, 207);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2.0;
+}
+
+
+header a:hover{
+    color: #ff00ae;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0px 40px;
+}
+
+
+.teclador-img {
+    width: 200px;
+    height: auto;
+    position: fixed;
+    top: 220px;
+    right: 1000px;
+    border: 2px solid #ff00ae;
+}
